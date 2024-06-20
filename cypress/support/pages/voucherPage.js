@@ -1,0 +1,57 @@
+class voucherPage {
+    elements = {
+
+      //Web Elements
+      aboutVoucherDescription: () => '._x_text-4._x_mb-16',
+      selectVoucherTypeOrderIndicator: () => ':nth-child(3) > ._x_mb-6 > ._x_flex',
+      selectVoucherTypeTitle: () => ':nth-child(3) > ._x_mb-6 > ._x_text-4',
+      digitalVoucherButton: () => ':nth-child(3) > :nth-child(3) > ._x_border-purple',
+      digitalVoucherText: () => '._x_border-purple > ._x_text-4',
+      physicalVoucherButton: () => '._x_border-gray',
+      physicalVoucherText: () => '._x_border-gray > ._x_text-4',
+      selectVoucherDesignOrderIndicator: () => ':nth-child(4) > ._x_mb-6 > ._x_flex',
+      selectVoucherDesignTitle: () => ':nth-child(4) > ._x_mb-6 > ._x_text-4',
+      selectVoucherDesignDescritpion: () => '._x_max-w-500 > :nth-child(4) > ._x_font-medium',
+      voucherImage: () => '._x_h-44',
+      voucherImageBorder: () => ':nth-child(4) > ._x_overflow-x-auto > ._x_flex',
+      selectVoucherPriceOrderIndicator: () => ':nth-child(5) > ._x_mb-6 > ._x_flex',
+      selectVoucherPriceText: () => ':nth-child(5) > ._x_mb-6 > ._x_text-4',
+      selectVoucherPriceDescription: () => '._x_max-w-500 > :nth-child(5) > ._x_font-medium',
+      voucherPriceButton: () => '._x_shadow-deliveryDateOptionShadow:eq(2)',
+      selectVoucherQuantityIndicator: () => ':nth-child(6) > ._x_mb-6 > ._x_flex',
+      selectVoucherQuantityTitle: () => ':nth-child(6) > ._x_mb-6 > ._x_text-4',
+      selectVoucherQuantityDescription: () => '._x_max-w-500 > :nth-child(6) > ._x_font-medium',
+      voucherQuantityFied: () => '._x_max-w-500 > :nth-child(6) > ._x_rounded-8',
+      decreaseVoucherQuantityButton: () => '._x_icon-minus',
+      increaseVoucherQuantityButton: () => ':nth-child(3) > ._x_icon-plus',
+      voucherQuantityIndicator: () => '.number-to-text',
+      enterReceiverDetailsOrderIndicator: () => '._x_mb-16._x_w-full > ._x_mb-6 > ._x_flex',
+      enterReceiverDetailsTitle: () => '._x_mb-16._x_w-full > ._x_mb-6 > ._x_text-4',
+      enterReceiverDetailsDescription: () => '._x_mb-16._x_w-full > ._x_mb-12',
+      receiverNameField: () => ':nth-child(1) > .ng-invalid > ._x_border-1',
+      receiverNameFieldTitle: () => '._x_pointer-events-none:eq(0)',
+      receiverEmailAddressField: () => ':nth-child(2) > .ng-invalid > ._x_border-1',
+      receiverEmailAddressFieldTitle: () => '._x_pointer-events-none:eq(1)',
+      receiverPhoneNumberField: () => ':nth-child(3) > .ng-invalid > ._x_border-1',
+      receiverPhoneNumberFieldTitle: () => '._x_pointer-events-none:eq(2)',
+      leaveMessageOrderIndicator: () => ':nth-child(8) > ._x_mb-6 > ._x_flex',
+      leaveMessageTitle: () => ':nth-child(8) > ._x_mb-6 > ._x_text-4',
+      leaveMessageDescription: () => '._x_mb-8:eq(1)',
+      enterMessageField: () => ':nth-child(8) > ._x_items-start',
+      enterMessageFieldTitle: () => '._x_resize-none',
+      purchaseButton: () => '._x_mx-auto:eq(2)',
+      receiverNameInput: () => '._x_pr-10:eq(0)',
+      receiverEmailInput: () => '._x_pr-10:eq(1)',
+      receiverPhoneInput: () => '._x_pr-10:eq(2)',
+      leaveMessageInput: () => '._x_max-h-92',
+      emptyReceiverNameErrorBorder:() => '._x_flex-col > :nth-child(1) > ._x_justify-center',
+      emptyReceiverNameErrorText: () => '._x_flex-col > :nth-child(1) > ._x_justify-center > ._x_font-medium',
+      emptyReceiverEmailErrorBorder: () => '._x_flex-col > :nth-child(2) > ._x_justify-center',
+      emptyReceiverEmailErrorTexT: () => ':nth-child(2) > ._x_justify-center > ._x_font-medium',
+
+      //Mobile Elements
+      physicalVoucherButtonMobile: () => '._x_shadow-deliveryDateOptionShadow:eq(0)',
+    };
+  }
+  
+  module.exports = new voucherPage();

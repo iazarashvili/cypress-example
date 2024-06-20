@@ -1,0 +1,31 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "cypress": "^13.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^1.6.4",
+    "prettier": "2.8.3",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "open": "cypress open",
+    "open-e2e": "cypress run --spec 'cypress/e2e/Extra-E2E-Tests' --browser chrome --headed",
+    "open-ui": "cypress run --spec 'cypress/e2e/Extra-UI-Tests' --browser chrome --headed",
+    "open-smoke": "cypress run --spec 'cypress/e2e/smoke-tests/from-web/authorization.spec.cy.js' --browser chrome --headed",
+    "open-all": "cypress run --spec cypress/e2e/ --browser chrome --headed",
+    "open-staging": "cypress run --spec cypress/e2e/Authorization-Tests/mobile-authorization-form.spec.cy.js --e2e --browser chrome --env staging=1 --headed",
+    "open-dev": "cypress run --spec cypress/e2e/Authorization-Tests/mobile-authorization-form.spec.cy.js --e2e --browser chrome --env dev=1 --headed",
+    "open-beta": "cypress run --spec cypress/e2e/Authorization-Tests/mobile-authorization-form.spec.cy.js --e2e --browser chrome --env beta=1 --headed"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "cypress-plugin-api": "^2.11.0",
+    "cypress-qase-reporter": "^1.4.3",
+    "uuid": "^9.0.0"
+  }
+}

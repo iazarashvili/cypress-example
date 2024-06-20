@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "typeRoots": ["./typings", "./node_modules/@types"],
+      "baseUrl": "https://staging.extra.ge/",
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node"],
+      "module": "commonjs",
+      "strict": true
+    },
+    "include": ["src", "./cypress.d.ts", "**/*.ts", "cypress/support/pages/homePage.ts", "cypress.config.js", "cypress/support/e2e.js", "cypress/support/commands.js", "cypress/support/Helpers/baseHelperTest.js", "cypress/e2e/Smoke-tests/from-mobile/mobile-ordering-test.spec.cy.js", "cypress/e2e/Smoke-tests/from-mobile/mobile-authorization.spec.cy.js", "cypress/e2e/Smoke-tests/from-web/search-tests.spec.cy.js", "cypress/e2e/Smoke-tests/from-web/ordering-tests.spec.cy.js", "cypress/e2e/Smoke-tests/from-web/basket-tests.spec.cy.js", "cypress/e2e/Smoke-tests/from-web/authorization.spec.cy.js"],
+  }

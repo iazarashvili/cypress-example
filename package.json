@@ -27,5 +27,7 @@
     "cypress-plugin-api": "^2.11.0",
     "cypress-qase-reporter": "^1.4.3",
     "uuid": "^9.0.0"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }

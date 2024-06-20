@@ -49,8 +49,6 @@ import 'cypress-file-upload';
 // git fetch --prune  # brenchebis darefresheba
 // ./node_modules/.bin/cypress open  open cypress
 
-// ATBBPdSbtQZGYnV3wG9FjGC2JdKK69632076 git pass
-
 
 //! QASE IO
 //  $env:QASE_REPORT=1

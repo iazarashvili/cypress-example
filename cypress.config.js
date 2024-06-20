@@ -10,7 +10,6 @@ module.exports = defineConfig({
       charts: true,
     },
     cypressQaseReporterReporterOptions: {
-      apiToken: 'c4d52081cd8d98cf6777abe08e474d79255d4d79a31c95282797652db795a1e7',
       projectCode: 'EWP',
       logging: true,
       basePath: 'https://api.qase.io/v1',

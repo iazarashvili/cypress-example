@@ -1,5 +1,4 @@
 /// <reference types="cypress" />
-import cypress from "cypress";
 import 'cypress-mochawesome-reporter/register';
 
 declare global {

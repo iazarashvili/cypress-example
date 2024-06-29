@@ -40,14 +40,7 @@ module.exports = defineConfig({
           baseUrl: "https://dev.extra.ge/dev-auth",
           env: {
             env: "dev",
-            authUserName: "rcyFv5Whyhx27jxm",
-            authPassword: "xKYs3jbH76VwVnbR",
-            CorrectEmail: "mailtestextra@gmail.com",
-            CorrectPassword: "Extra2022",
-            IncorrectEmail: "extra@gmail.com",
-            IncorrectPassword: "Extra22323",
-            ThirdCorrectEmail: "onvpwogpnnn@hldrive.com",
-            ThirdCorrectPassword: "Test1234",
+           
 
             detail_page_url: "https://dev.extra.ge/product/",
             product_page_has_color_size: "https://dev.extra.ge/product/vans---ua-authentic-sf-kedi/503691",
@@ -78,15 +71,7 @@ module.exports = defineConfig({
         return {
           baseUrl: "https://beta.extra.ge/",
           env: {
-            env: "staging",
-            authUserName: "scByKxLa36Wcypju",
-            authPassword: "DbeGwVkuLee9Zjvf",
-            CorrectEmail: "xegpebhecrib@triots.com",
-            CorrectPassword: "ilo123",
-            IncorrectEmail: "extra@gmail.com",
-            IncorrectPassword: "Extra22323",
-            ThirdCorrectEmail: "sehec37090@niback.com",
-            ThirdCorrectPassword: "Test1234",
+          
 
             detail_page_url: "https://beta.extra.ge/product/",
             product_page_has_color_size: "https://beta.extra.ge/product/vans---ua-authentic-sf-kedi/503691",
@@ -120,18 +105,7 @@ module.exports = defineConfig({
           baseUrl: "https://staging.extra.ge/",
           env: {
             env: "staging",
-            authUserName: "scByKxLa36Wcypju",
-            authPassword: "DbeGwVkuLee9Zjvf",
-            CorrectEmail: "xegpebhecrib@triots.com",
-            CorrectPassword: "ilo123",
-            mobileNumber: "595300019",
-            password: "Extra2024",
-            legalMail: "ilia.azarashvili@gmail.com",
-            IncorrectEmail: "extra@gmail.com",
-            IncorrectPassword: "Extra22323",
-            ThirdCorrectEmail: "sehec37090@niback.com",
-            ThirdCorrectPassword: "Test1234",
-
+            
             detail_page_url: "https://staging.extra.ge/product/",
             product_page_has_color_size: "https://staging.extra.ge/product/vans---ua-authentic-sf-kedi/503691",
             dashboard_Url: "https://merchant.staging.extra.ge/auth/user",
